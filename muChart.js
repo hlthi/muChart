@@ -3,7 +3,7 @@
  *
  * App name = muChart
  *
- * Copyright 2015 Muhammet Ozturk and Ebubekir and Ozlem Aydýn
+ * Copyright 2015 Muhammet Ozturk and Ebubekir
  *
  * Please all code's above detailed comment .
  * Please variable names are  meaningful.
