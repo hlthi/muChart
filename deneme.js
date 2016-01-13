@@ -1,3 +1,0 @@
-asdas
-
-kalame dfasa
