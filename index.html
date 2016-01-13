@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="./muChart.js"></script>
+</head>
+<body>
+<!--<canvas id="chartCanvas" >a</canvas>-->
+<canvas id="canvas" width="840" height="840" ></canvas>
+<script>
+    var chartData = {
+        xLabel : ["Pazartesi","Sali","Carsamba","Persembe","Cuma"],
+        yLabel : ["100","200","300"," 150","120"]
+    };
+
+    var canvasObj =  document.getElementById("canvas");
+    var ctx = canvasObj.getContext("2d");
+    ctx.width = canvasObj.width;
+    ctx.height = canvasObj.height;
+    drawGraph("line",ctx,chartData);
+</script>
+</body>
+</html>
